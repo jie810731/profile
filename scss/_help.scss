@@ -1,0 +1,16 @@
+@for $i from 1 to 10 {
+    .mb-#{$i} {
+        margin-bottom: #{$i*8}px !important;
+    }
+}
+
+.bg-primary {
+    background: #415165;
+}
+
+.ta-c {
+    text-align: center;
+}
+.ov-h{
+    overflow: hidden;
+}

@@ -48,12 +48,31 @@ table {
   border-spacing: 0;
 }
 
-.mb-1 {
-  margin-bottom: 8px !important;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Microsoft JhengHei", "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.mt-2 {
-  margin-top: 16px !important;
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.mb-1 {
+  margin-bottom: 8px !important;
 }
 
 .mb-2 {
@@ -68,10 +87,6 @@ table {
   margin-bottom: 32px !important;
 }
 
-.mt-5 {
-  margin-top: 40px !important;
-}
-
 .mb-5 {
   margin-bottom: 40px !important;
 }
@@ -80,22 +95,28 @@ table {
   margin-bottom: 48px !important;
 }
 
+.mb-7 {
+  margin-bottom: 56px !important;
+}
+
+.mb-8 {
+  margin-bottom: 64px !important;
+}
+
 .mb-9 {
   margin-bottom: 72px !important;
 }
 
-.mb-10 {
-  margin-bottom: 80px !important;
+.bg-primary {
+  background: #415165;
 }
 
-body {
-  font-size: 24px;
-  line-height: 1.5em;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+.ta-c {
+  text-align: center;
 }
 
-a {
-  text-decoration: none;
+.ov-h {
+  overflow: hidden;
 }
 
 .container {
@@ -103,106 +124,101 @@ a {
   margin: 0 auto;
 }
 
-.title {
-  padding-bottom: 24px;
+.h1 {
   font-size: 80px;
   line-height: 95px;
   border-bottom: 2px solid #000;
-  font-weight: 100;
+  padding-bottom: 24px;
 }
 
-.categoryTitle {
+.h2 {
   font-size: 32px;
   line-height: 48px;
   padding-bottom: 8px;
+  margin-bottom: 16px;
   border-bottom: 1px solid #000;
 }
 
-.categoryTitle span {
-  color: #A00404;
+.h2 span {
   font-size: 24px;
   line-height: 29px;
-  margin-left: 16px;
+  color: #A00404;
+  margin-left: 8px;
+  font-weight: bold;
 }
 
-.skills {
-  background-color: #415165;
+.h2--white {
   color: #FFFFFF;
-  text-align: center;
-  padding-top: 24px;
-  padding-bottom: 52px;
-}
-
-.skills h2 {
-  width: 996px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 8px;
   border-bottom: 1px solid #FFFFFF;
-  font-size: 32px;
-  line-height: 45px;
+  padding-top: 24px;
 }
 
-.skills h2 span {
-  font-size: 24px;
+.h2--white span {
+  color: inherit;
   margin-left: 16px;
 }
 
-.skills .skillList {
-  margin: 0 auto;
-  width: 200px;
-  border-left: 1px solid #96A9C4;
-  padding-left: 24px;
+.list {
+  margin-bottom: 72px;
 }
 
-.skills .skillList li {
+.list li {
+  font-weight: lighter;
+  margin-bottom: 24px;
+}
+
+.skills__title {
+  width: 996px;
+  margin: 0 auto;
+}
+
+.skillList {
+  margin: 0 auto 52px;
+  width: 225px;
+  color: #FFFFFF;
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+}
+
+.skillList li {
   margin-bottom: 20px;
 }
 
 .workList {
-  margin-left: 24px;
-  margin-bottom: 76px;
-  padding-left: 24px;
   border-left: 1px solid #96A9C4;
+  padding-left: 24px;
+  margin-left: 24px;
 }
 
-.workList p {
-  width: 642px;
+.workList li {
+  margin-bottom: 32px;
+}
+
+.workList li img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.workList li p {
   font-size: 20px;
   line-height: 30px;
+  font-weight: lighter;
 }
 
-.contact {
-  padding-top: 24px;
-  background: #415165;
-  color: white;
-  padding-bottom: 48px;
-  text-align: center;
+.contactList {
+  margin-top: 32px;
+  color: #FFFFFF;
 }
 
-.contact h2 {
-  margin: 0 auto;
-  width: 1200px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #FFFFFF;
-  font-size: 32px;
-  line-height: 45px;
+.contactList a {
+  color: inherit;
 }
 
-.contact h2 span {
-  font-size: 24px;
-  margin-left: 16px;
+.contactList li {
+  margin-bottom: 16px;
 }
 
-.contact .contactList {
-  margin: 0 auto;
-}
-
-.contact .contactList img {
-  margin-right: 24px;
-}
-
-.contact .contactList a {
-  color: white;
+.contactList img {
+  padding: 0 12px;
 }
 /*# sourceMappingURL=all.css.map */
