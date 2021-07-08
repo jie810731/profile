@@ -36,7 +36,6 @@
 }
 
 .list {
-    margin-bottom: 72px;
     li {
         font-weight: lighter;
         margin-bottom: 24px;
@@ -49,7 +48,7 @@
 }
 
 .skillList {
-    margin: 0 auto 52px;
+    margin: 0 auto;
     width: 225px;
     color: #FFFFFF;
     padding-left: 24px;
@@ -89,4 +88,7 @@
     img {
         padding: 0 12px;
     }
+}
+.p-pb-52{
+    padding-bottom: 52px;
 }

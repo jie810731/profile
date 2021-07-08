@@ -107,16 +107,16 @@ body {
   margin-bottom: 72px !important;
 }
 
+.pb-6 {
+  padding-bottom: 48px;
+}
+
 .bg-primary {
   background: #415165;
 }
 
 .ta-c {
   text-align: center;
-}
-
-.ov-h {
-  overflow: hidden;
 }
 
 .container {
@@ -158,10 +158,6 @@ body {
   margin-left: 16px;
 }
 
-.list {
-  margin-bottom: 72px;
-}
-
 .list li {
   font-weight: lighter;
   margin-bottom: 24px;
@@ -173,7 +169,7 @@ body {
 }
 
 .skillList {
-  margin: 0 auto 52px;
+  margin: 0 auto;
   width: 225px;
   color: #FFFFFF;
   padding-left: 24px;
@@ -220,5 +216,9 @@ body {
 
 .contactList img {
   padding: 0 12px;
+}
+
+.p-pb-52 {
+  padding-bottom: 52px;
 }
 /*# sourceMappingURL=all.css.map */
